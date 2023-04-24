@@ -1,0 +1,20 @@
+What happens when you type https://www.google.com in your browser and press Enter?
+
+When you enter "https://www.google.com" into your browser and hit Enter, a number of sophisticated operations begin that eventually result in the display of the Google homepage on your screen. We will outline the stages involved in this process in this blog article.
+1. DNS request
+When you type "https://www.google.com" into your browser and press Enter, your computer sends a request to a DNS server to translate the URL into an IP address. Think of it like a phonebook, where you look up someone's name to find their phone number. In this case, the DNS server provides the IP address of the Google server.
+2. TCP/IP
+Next, your computer establishes a TCP/IP connection with the Google server. TCP/IP is a set of protocols used for communication between devices on the internet. The three-way handshake process ensures that the connection is established properly and that both your computer and the Google server are ready to send and receive data.
+3. Firewall
+The connection is then routed through any firewalls, which act as security guards, monitoring both incoming and outgoing traffic to prevent unwanted access. If your browser accepts the connection request, it establishes an encrypted connection with the Google server via the HTTPS and SSL/TLS protocols. This ensures that all information transmitted between your computer and the server is encrypted and secure.
+4. HTTPS/SSL
+If your browser accepts the connection request, it establishes an encrypted connection with the Google server through HTTPS (Hypertext Transfer Protocol Secure) and the SSL (Secure Socket Layer) or TLS (Transport Layer Security) protocols. These methods ensure that any data transmitted between your computer and the server is encrypted and safe from eavesdropping or modification.
+5. Load-balancer
+The request is subsequently sent through a load balancer, which distributes incoming traffic to numerous servers in order to avoid overloading any single server. This contributes to the website's performance and availability.
+6. Web server
+A web server then receives the request and serves the requested web page. After processing the request and gathering the required information from its file system, the web server creates an HTML response.
+7. Application server
+To retrieve or analyze data, the web server may occasionally need to communicate with an application server. The application server executes the application code responsible for managing the website's particular functionality, such as doing a search or producing dynamic content.
+8. Database
+In order to obtain or save data, the application server may also interface with a database. Data from the website, such as user profiles or search results, are stored and managed in the database.
+In conclusion, Finally, entering "https://www.google.com" into your browser and pressing Enter initiates a complex set of procedures involving DNS, TCP/IP, firewalls, HTTPS/SSL, load-balancers, web servers, application servers, and databases. All of these procedures occur rapidly, and the end effect is that the Google homepage appears in your browser. It's critical to understand these processes since they serve as the internet's backbone, allowing us to access and use websites and online services on a daily basis.
